@@ -20,7 +20,7 @@ public class HomeActivity extends AppCompatActivity {
 
     }
     public void onClick(View v) {
-        textView.setText("Event Driven Branch Two....");
+        textView.setText("Event Driven Branch Two.One");
     }
 
 
