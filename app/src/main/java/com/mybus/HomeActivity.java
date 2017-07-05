@@ -15,13 +15,13 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        textView=(TextView)findViewById(R.id.tv);
-        button=(Button)findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                textView.setText("Not that hard ....");
-            }
-        });
+        textView = (TextView) findViewById(R.id.tv);
+        button = (Button) findViewById(R.id.button);
+
     }
+    public void onClick(View v) {
+        textView.setText("Not that hard ....");
+    }
+
+
 }
