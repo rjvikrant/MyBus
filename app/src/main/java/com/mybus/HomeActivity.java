@@ -17,7 +17,6 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         textView=(TextView)findViewById(R.id.tv);
         button=(Button)findViewById(R.id.button);
-        textView.setText("Hello Welcome To hell");
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
